@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background: linear-gradient(to right top, #121418, #101013, #0d0b0e, #070506, #000000);
+  background-size: cover;
+  height: 60vh;
+  color: white; }
+
+.header__logo-box {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400; }
+
+.header__nav-list {
+  font-family: 'Rubik', sans-serif;
+  color: #9E9E9E; }
+
+.heading {
+  font-size: 3rem;
+  color: #9E9E9E; }
+  .heading .heading-primary {
+    margin: 3rem 0rem;
+    font-family: 'Rubik', sans-serif; }
+    .heading .heading-primary h2 {
+      font-weight: 400; }
+      .heading .heading-primary h2 span {
+        color: #ffffff; }
+  .heading .heading-paragraph {
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif; }
+    .heading .heading-paragraph p {
+      font-weight: 100;
+      line-height: 3rem; }
+
+.btn {
+  font-size: 1.3rem;
+  font-family: 'Rubik', sans-serif; }
+  .btn--gradient {
+    color: black; }
+  .btn--white {
+    color: white; }
+
+.btn {
+  text-decoration: none;
+  transition: all .5s; }
+  .btn--gradient {
+    background: linear-gradient(90deg, #14b393 39%, #fdcf6d 83%);
+    padding: 1.5rem 4rem;
+    border-radius: 10rem; }
+    .btn--gradient:hover {
+      transform: scale(1.4);
+      box-shadow: 0 5px 15px #00C39A; }
+      .btn--gradient:hover::after {
+        transform: scaleX(1.4) scaleY(1.6); }
+  .btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 .5rem 1rem white; }
+  .btn--white:hover {
+    box-shadow: 0 5px 15px #bbc0bf; }
+
+.btn-left {
+  margin: 0rem 4rem; }
+
+.header__logo-box {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 3.3rem; }
+
+.header__nav {
+  font-size: 1.8rem; }
+
+.header__nav-list {
+  top: 5%;
+  left: 40%; }
+
+.header__nav-list li {
+  display: inline;
+  margin: 0rem 1.2rem; }
+
+.nav-center {
+  position: absolute;
+  display: inline;
+  left: 33%;
+  top: 8%; }
+
+.navright {
+  position: absolute;
+  right: 2%;
+  top: 8%; }
+
+.heading {
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  text-align: center; }
+
+.header__buttons {
+  position: absolute;
+  top: 50%;
+  left: 35%; }

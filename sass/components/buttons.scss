@@ -1,0 +1,42 @@
+.btn {
+
+    text-decoration: none;
+    transition: all .5s;
+
+    &--gradient {
+        background: $secondary-color-gradient;
+        padding: 1.5rem 4rem;
+        border-radius: 10rem;
+
+        &:hover {
+            transform: scale(1.4);
+            box-shadow: 0 5px 15px #00C39A;
+
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+            }
+        }
+    }
+
+    &:active {
+        transform: translateY(-.1rem);
+        box-shadow: 0 .5rem 1rem white;
+    }
+
+    &--white {
+
+        &:hover {
+            box-shadow: 0 5px 15px #bbc0bf;
+        }
+        
+    }
+
+    
+
+    
+
+
+}
+.btn-left {
+    margin: 0rem 4rem;
+}
